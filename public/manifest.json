@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Bookmark Buddy",
+    "description": "A simple bookmark manager to organise your bookmarks along with categories",
+    "icons": {
+        "48": "48.png", 
+        "96": "96.png", 
+        "128": "128.png", 
+        "256": "256.png" 
+    },
+    "action": {
+        "default_popup": "index.html"
+     },
+     "version": "1.0.0",
+    "permissions": ["scripting", "bookmarks", "activeTab", "storage"],
+    "host_permissions": ["http://*/*", "https://*/*"]
+}
